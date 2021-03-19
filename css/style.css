@@ -7,6 +7,12 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+.pdf {
+	color: #777;
+}
+.pdf:hover {
+	color: #d43031;
+}
 h1, h2, h3, h4 {
 	
 	font-family: 'Raleway', sans-serif;
@@ -17,7 +23,6 @@ h2 {
 	color: #333;
 	text-transform: uppercase;
 	position: relative;
-	margin-top: 10px;
 	margin-bottom: 15px;
 	padding-bottom: 20px;
 }
@@ -170,7 +175,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro {
 	display: table;
 	width: 100%;
-	background: url(../img/ae.jpg) center center no-repeat;
+	background: url(../img/ae1.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -182,9 +187,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro h1 {
 	color: #fff;
-	font-size: 10em;
-	font-weight: 400;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 50;
+	font-weight: 800;
 	margin-top: 0;
+	
 }
 .intro span {
 	color: #a7c44c;
