@@ -94,6 +94,29 @@ p {
 .mnu:hover {
   color: #4e0b75;
 }
+.arrow {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 6px 6px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+.arrow:hover {
+  border-bottom-width: 10px;
+  border-right-width: 10px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+ululul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
 
 abbr[title],
 abbr[data-original-title] {
