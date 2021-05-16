@@ -89,10 +89,11 @@ p {
 }
 
 .mnu{
-  color: #900ddb;
+  color: #ffffff;
+  text-shadow: 1px 2px #161616;
 }
 .mnu:hover {
-  color: #4e0b75;
+  color: #8b20c9;
 }
 .arrow {
   box-sizing: border-box;
@@ -107,6 +108,7 @@ p {
 .arrow:hover {
   border-bottom-width: 10px;
   border-right-width: 10px;
+  border-color: #161616;
 }
 
 html{
