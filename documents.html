@@ -33,7 +33,7 @@
   <header role="banner">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand " href="index.html">Tolling</a>
+        <a class="navbar-brand">PEI2021</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -71,10 +71,20 @@
                 <a style="font-size:large;">Here we publish every deliverable document of each milestone and keep a log of the developed work for each week. </a>
 
               </div>
-              <div class="col-md-8 text-center col-sm-12 element-animate pt-5" style="margin-top: -32%; margin-left: 26%;">
+              <div class="col-md-12 text-center col-sm-12 element-animate pt-5" style="margin-top: -32%; margin-left: 32%;">
                 <ul class="row">
-                    <a class=" mnu" style="margin-right: 10%" href="#miles">Milestones</a>
-                    <a class=" mnu" href="#week">Weekly log</a>
+                    <div>
+                      <h4 style="color: white;">Milestones</h4>  
+                      <a href="#miles"><div class="arrow1"></div></a>
+                    </div>
+                    <div style="margin-left: 10%;">
+                      <h4 style="color: white;">Weekly log</h4>  
+                      <a href="#week"><div class="arrow1"></div></a>
+                    </div>
+                    <div style="margin-left: 10%;">
+                      <h4 style="color: white;">Architecture</h4>  
+                      <a href="#arch"><div class="arrow1"></div></a>
+                    </div>
                 </ul>
               </div>    
             </div>
@@ -143,8 +153,8 @@
         </div>
     </section>
      
-
-    <section class="section element-animate" id="week">
+    <!-- log -->
+    <section class="section element-animate" id="week" style="background-color: #F8F9FA;">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12 text-left">
@@ -200,23 +210,33 @@
                     </tr>
                     <tr>
                         <td style="color: black">11 : May 17th - May 23th</td>
-                        <td class="text-center" style="color: black"> - </td>
+                        <td class="text-left" style="color: black"> Mobile app can now make <i>iota</i> transactions and the details are transmitted by broker.</td>
                     </tr>
                     <tr>
                         <td style="color: black">12 : May 24th - May 30th</td>
-                        <td class="text-center" style="color: black"> - </td>
+                        <td class="text-left" style="color: black"> Transactions The dashboard recieves broker information and displays it when solicited.</td>
                     </tr>
                     <tr>
                         <td style="color: black">13 : May 31st - June 6th</td>
-                        <td class="text-center" style="color: black"> - </td>
+                        <td class="text-left" style="color: black"> Aesthetics.</td>
                     </tr>
                     <tr>
                         <td style="color: black">14 : June 7th - June 13th</td>
-                        <td class="text-center" style="color: black"> - </td>
+                        <td class="text-left" style="color: black"> Final corrections.</td>
                     </tr>    
                 </table>
             </div>
         </div>
+    </section>
+
+    <!-- Arch -->
+    <section class="section" id="arch">
+      <div class="container">
+        <div class="col-12 text-left">
+          <h2>System Architecture</h2>
+        </div>
+        <img src="images/arch.png" style="width: 70%; margin-left: 15%; margin-bottom: 2%; margin-top: 2%;"></li>    
+      </div>
     </section>
 
     <!-- Footer -->
@@ -230,9 +250,9 @@
 
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-                stroke="#f4b214" /></svg></div>
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214" /></svg>
+    </div>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
